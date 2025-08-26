@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: demo-app
-        image: docker.io/tanmoyjames/demo-app:latest   # Jenkins will update this
+        image: docker.io/tanmoyjames/demo-app:10
         ports:
         - containerPort: 80
 ---
